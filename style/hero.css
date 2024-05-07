@@ -173,7 +173,7 @@ nav .nav-logo span{
 
 .banner{
   background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-  height: 500px;
+  height: 600px;
   width: 100%;
   background-size:cover;
   background-repeat: no-repeat;
@@ -240,10 +240,10 @@ nav .nav-logo span{
   flex-direction: row;
   box-sizing: border-box;
   position: absolute;
-  bottom: 50px;
-  gap: 20px;
+  bottom: 60px;
+  gap: 30px;
   margin: 0 auto;
-  margin-left: 100px; 
+  margin-left: 120px; 
   box-sizing: border-box;
   
 }
@@ -778,30 +778,35 @@ background: linear-gradient(180.00deg, rgb(19, 19, 24) -31.958%,rgba(19, 19, 24,
   
 
 
-
   .row  {
     flex-direction: column;
-    display: block;
+    /* display: block; */
     margin-right: 30px;
-    transform: translate(-10%, -10%); 
     padding-top: 50px;
-   
+    top: 300px;
+    bottom: 0;
   }
 
  
   .our-popular-item-container{
 
     flex-direction: column;
+    
 
+  }
+
+
+  .our-popular-item-container img{
+    width: 300px;
   }
 
   .Choose-Destination-container h2{
-    width: 239px;
+    width: 309px;
   }
 
   .Choose-Destination-container p{
-    width: 300px;
-
+    
+    
   }
 
 
