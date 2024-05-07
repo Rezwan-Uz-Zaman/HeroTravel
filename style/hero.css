@@ -1,0 +1,873 @@
+
+/* Mulish font  form google fonts*/
+
+
+.mulish {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.mulish {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: bold;
+  }
+
+
+
+  .mulish {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/* ========================shared styles================ */
+
+*{
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+}
+
+
+
+
+/* =================header related styles=============== */
+
+header{
+  margin: 0px  100px;
+ 
+}
+
+
+
+  
+/* =================nav related styles================= */
+
+
+nav {
+  
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.nav-logo{
+  display: flex;
+  align-items: center;
+  margin-right:50px;
+}
+
+.nav-menu{
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.nav-menu li a{
+  color: rgb(66, 66, 71);
+  font-size: 1.02rem;
+  font-weight: 400;
+  
+}
+
+.nav-menu li span a{
+
+  color: rgb(255, 84, 0);
+  font-size: 1.02rem;
+  font-weight: 700;
+  
+  
+}
+
+
+nav li{
+  list-style-type: none;
+   margin-right: 40px; 
+  
+  
+}
+
+
+nav li a{
+  text-decoration: none;
+}
+
+nav  img{
+   height: 50px;
+}
+
+nav .nav-logo h3{
+  padding-left: 20px;
+  font-size: 2rem; 
+  font-weight: 800;
+  flex: 1;
+ 
+}
+
+nav .nav-logo span{
+
+  
+ color: rgb(255, 84, 0);
+}
+
+
+/* =========nav toggle related styles============== */
+
+
+.nav-toggle{
+
+  height: 32px;
+  width: 40px;
+  background-color: black;
+  align-items: center;
+  margin-left: 80px; 
+  display: none;
+  margin-left: 190px;
+  
+  
+}
+
+.nav-toggle:focus{
+  box-shadow: 0 0 15px (255,255,255,0.6);
+}
+
+
+.nav-toggle span{
+  height: 2px;
+  width: 20px;
+  background-color: white;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+.nav-toggle span::after,
+.nav-toggle span::before{
+
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  content: '';
+
+}
+
+.nav-toggle span::after{
+  transform: translateY(-6px);
+}
+.nav-toggle span::before{
+  transform: translateY(6px);
+}
+
+/* =================banner related styles================== */
+
+
+.banner{
+  background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+  height: 500px;
+  width: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 16px;
+  background-blend-mode: overlay;
+  background-color: hsla(0, 0%, 0%, 0.4);
+  max-width: 1180px;
+  position: relative;
+  align-items: center;
+  place-items: center;
+  /* background-attachment: fixed; */
+  
+ 
+}
+
+
+
+
+
+.banner-text{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  display: block;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  
+}
+
+.banner-text .banner-title{
+
+ font-size: 4rem;
+ font-weight: 800;
+ text-align: center;
+ box-sizing: border-box;
+ padding-top: 20px; 
+ display: block;
+
+}
+
+
+
+.banner-text .banner-description{
+  font-size: 1rem;
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 0px;
+  padding-right: 200px; 
+  padding-left: 150px; 
+  padding-top: 0px;
+  
+ 
+}
+
+/* ===================form related styles================ */
+
+
+
+ .row{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 50px;
+  gap: 20px;
+  margin: 0 auto;
+  margin-left: 100px; 
+  box-sizing: border-box;
+  
+}
+
+
+
+ .row .col-lg-3{
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);;
+  padding: 10px;
+  display: block;
+  
+}
+
+
+ .row  .input-field{
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 8px;
+  border-radius: 5px;
+  border: 0;
+}
+
+
+ .row #input-field-btn{
+ 
+background: rgb(255, 84, 0);
+color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 700;
+
+
+}
+
+/* ===================main section related styles============= */
+/* ==============Our popular Tours section styles============ */
+
+main{
+  margin: 100px 100px;
+}
+
+
+.our-popular-item-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+  
+
+}
+
+
+.out-popular-text h2{
+  color: rgb(19, 19, 24);
+  font-size: 2.8rem;
+  font-weight: 800;
+  text-align: center;
+  width: 300px;
+  
+}
+
+.out-popular-text p li{
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 50px;
+  
+}
+
+/* ===================Shaired styles button================ */
+
+.out-popular-text .btn-primary{
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  border: 0;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  background: rgb(255, 84, 0);
+  padding: 12px 22px;
+  margin-top: 20px;
+}
+
+/* ===================Shaired styles button================= */
+.Deals-Discounts-card-container .btn-primary{
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  border: 0;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  background: rgb(255, 84, 0);
+  padding: 12px 22px;
+  margin-top: 20px;
+}
+
+
+ .our-popular-img img{
+
+
+ max-width: 400px;
+ 
+}
+
+
+/* ==========Choose Your Destination section  styles=============== */
+
+
+.Choose-Destination-container {
+  
+  max-width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+.Choose-Destination-container h2{
+  color: rgb(19, 19, 24);
+  font-size: 2.6rem;
+  font-weight: 800;
+  text-align: center;
+  
+}
+
+.Choose-Destination-container p{
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+ 
+
+}
+
+
+/* ==========Choose Your Destination section styles============= */
+
+
+.gallery-container{
+ 
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+
+.gallery-row {
+  display:flex;
+  /* min-height: 300px;
+  max-height: 500px; */
+  gap: 20px;
+  margin-top: 10px;
+  
+ 
+  
+}
+
+.gallery-image img{
+  width: 100%;
+  
+}
+
+
+.gallery-row .gallery-image:hover{
+
+ border: 1px solid white ;
+}
+
+.gallery-row .gallery-image div  {
+
+  position: absolute;
+  align-items: center;
+  color: #f2ebeb;
+  font-size: 1.02rem;
+  text-align:center;
+ 
+
+}
+
+
+
+/* ==============why choose us section related styles==============*/
+
+.choose-us {
+
+  margin: 130px auto;
+  text-align: center;
+  max-width: 640px;
+ 
+}
+
+.choose-us h2{
+  color: rgb(19, 19, 24);
+  font-size: 2.4rem;
+  font-weight: 800;
+  
+}
+
+.choose-us p{
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  
+}
+
+
+
+.choose-us-content{
+  display: flex;
+  text-align: left;
+  gap: 24px;
+  margin: 0 auto;
+  
+}
+
+
+.choose-us-content img{
+  height: 50px;
+}
+
+.choose-us-content h2{
+  color: rgb(19, 19, 24);
+  font-size: 1.5rem;
+  font-weight: 800;
+
+
+}
+
+.choose-us-content p{
+
+  color: rgb(90, 90, 93);
+  font-family: 1rem;
+  font-weight: 400;
+}
+
+
+.choose-us-content .handpicked{
+  gap: 50px;
+}
+
+
+
+
+.best-free img{
+
+  height: 50px;
+}
+
+.best-free{
+  margin: 80px auto;
+  max-width: 486px;
+}
+
+.best-free h2{
+  color: rgb(19, 19, 24);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.best-free p{
+  color: rgb(90, 90, 93);
+  font-size: 1rem;
+
+}
+
+
+
+
+/* ==========Deals & Discounts section related styles============= */
+
+
+/* ==========Deals & Discounts content  related styles============ */
+
+.Deals-Discounts-content{
+  margin: 0px auto;
+  text-align: center;
+  max-width: 640px; 
+  
+  
+}
+
+
+.Deals-Discounts-content h2{
+  color: rgb(19, 19, 24);
+  font-size: 2.5rem;
+  font-weight: 800;
+
+}
+
+
+
+.Deals-Discounts-content p{
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* ==========Deals & Discounts card container related styles========== */
+
+.Deals-Discounts-card-container{
+  max-width: 1170px;
+  margin-top: 50px;
+  position: relative;
+  
+  
+}
+
+
+.Deals-Discounts-card-container img{
+  margin: 0 auto;
+  height:500px;
+  
+}
+
+
+
+.Deals-Discounts-card-container .text-block{
+
+  position: absolute;
+  bottom: 35px;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.8);
+  max-width: 450px;
+  left: 600px;
+  padding-left: 30px;
+  padding-top: 30px; 
+  text-align: left;
+  
+}
+  
+.Deals-Discounts-card-container .btn-primary{
+  margin-bottom: 10px;
+}
+
+
+
+.Deals-Discounts-card-container h3 {
+
+  color: rgb(19, 19, 24);
+  font-size: 1.6rem;
+  font-weight: 800;
+ 
+  
+}
+
+.Deals-Discounts-card-container p{
+  color: rgb(90, 90, 93);
+  font-size: 1rem;
+  font-weight: 400;
+  
+}
+
+
+.Deals-Discounts-card-container h4{
+  color: rgb(255, 84, 0);
+  font-size: 1.04rem;
+  font-weight: 800;
+}
+
+  .Packages{
+  margin: 30px auto;
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+  color: rgb(255, 255, 255);
+  border: 0;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  padding: 14px 22px;
+ 
+ 
+}
+
+
+/*==================Perfect-Place-container=====================*/
+
+
+
+.see-more{
+  margin: 30px auto;
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+  color: rgb(255, 255, 255);
+  border: 0;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.Perfect-Place-container{
+  display: flex;
+  align-items: center;
+  
+}
+
+.Perfect-Place-content{
+  max-width: 630px; 
+  margin-right: 50px;
+  margin-top: 100px;
+  
+ 
+}
+
+.Perfect-Place-content h2{
+  color: rgb(19, 19, 24);
+  font-size: 2.5rem;
+  font-weight: 800;
+  
+}
+
+
+.Perfect-Place-content p{
+  color: rgb(90, 90, 93);
+  font-size: 1rem;
+  font-weight: 400;
+
+
+}
+
+.Perfect-Place-content li{
+  color: rgb(19, 19, 24);
+  font-size:1rem;
+  font-weight: 700;
+}
+
+
+.Perfect-Place-vedio{
+  align-items: center;
+  border-radius: 16px;
+  
+background: linear-gradient(180.00deg, rgb(19, 19, 24) -31.958%,rgba(19, 19, 24, 0) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Resposive styles */
+
+/* Mobile device */
+
+
+
+@media screen and (max-width:600px)  {
+  
+  .nav-toggle{
+    display: block;
+    
+  }
+
+  
+  
+  .nav-menu{
+    width: 100%;
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    visibility: hidden;
+    
+
+  }
+
+  .nav-menu .open{
+
+    visibility:visible;
+    
+  }
+  
+  nav .nav-menu{
+    padding: 10px 15px;
+    margin-top: 12px;
+    border-top: 1px solid rgba(255,255,255,0.6);
+   
+  }
+
+  nav .nav-menu li{
+    display: block;
+    margin: 0;
+  }
+  
+  .banner {
+    width: 100%;
+   width: 450px;
+  }
+
+  .banner-text .banner-title{
+    font-size: 2rem;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+    
+  
+  }
+
+  .banner-text .banner-description{
+    padding: 0;
+    
+  
+  }
+
+  
+
+
+
+  .row  {
+    flex-direction: column;
+    display: block;
+    margin-right: 30px;
+    transform: translate(-10%, -10%); 
+    padding-top: 50px;
+   
+  }
+
+ 
+  .our-popular-item-container{
+
+    flex-direction: column;
+
+  }
+
+  .Choose-Destination-container h2{
+    width: 239px;
+  }
+
+  .Choose-Destination-container p{
+    width: 300px;
+
+  }
+
+
+  .gallery-row{
+    flex-direction: column;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    width: 400px;
+  }
+
+  .choose-us-content{
+    flex-direction: column;
+    
+  }
+
+  .choose-us h2{
+    width: 300px;
+  }
+  .choose-us p{
+    width: 309px;
+  }
+
+  .choose-us-content  .handpicked,.service,.best-free{
+    width: 320px;
+  }
+
+ 
+
+  .Deals-Discounts-content{
+    width: 320px;
+  }
+
+  
+
+  .Deals-Discounts-card-container img{
+    max-width: 400px;
+   
+  }
+
+  .Deals-Discounts-card-container .text-block{
+    bottom: 30px;
+    max-width: 450px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding-left: 10px;
+    padding-top: 0px; 
+    padding-right:10px
+   
+    
+  }
+  .Perfect-Place-container{
+    flex-direction: column;
+   
+    
+  }
+
+  .Perfect-Place-content{
+    max-width: 400px;
+  }
+
+ }
+
+
+
+
+
+
