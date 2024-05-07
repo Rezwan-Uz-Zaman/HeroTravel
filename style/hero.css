@@ -791,13 +791,18 @@ background: linear-gradient(180.00deg, rgb(19, 19, 24) -31.958%,rgba(19, 19, 24,
   .our-popular-item-container{
 
     flex-direction: column;
-    
+    margin-left: 200px;
 
   }
 
 
+
   .our-popular-item-container img{
     width: 300px;
+  }
+
+  .Choose-Destination-container{
+    margin-left: 50px;
   }
 
   .Choose-Destination-container h2{
@@ -805,7 +810,7 @@ background: linear-gradient(180.00deg, rgb(19, 19, 24) -31.958%,rgba(19, 19, 24,
   }
 
   .Choose-Destination-container p{
-    
+    width: 309px;
     
   }
 
